@@ -1,0 +1,17 @@
+body {
+    background-image: url('/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title {
+  font-family: "Protest Riot", sans-serif;
+  font-size: 2em;
+  margin-top: 4%;
+  text-shadow: 2px 2px 2px rgb(226, 150, 216);
+}
+
+.game {
+    background-color: 
+}
