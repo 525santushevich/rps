@@ -1,17 +1,23 @@
 body {
-    background-image: url('/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(75, 169, 212);
 }
 
+.container {
+  height: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .title {
   font-family: "Protest Riot", sans-serif;
   font-size: 2em;
-  margin-top: 4%;
-  text-shadow: 2px 2px 2px rgb(226, 150, 216);
+  margin-top: 1%;
+  text-shadow: 2px 2px 2px rgb(0, 145, 212);
+  color: white;
 }
 
 .game {
-    background-color: 
+  justify-content: center;
+    background-color: rgba(75,169,212,.2);
 }
