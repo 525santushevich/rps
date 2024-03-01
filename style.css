@@ -1,25 +1,49 @@
 body {
-    background-color: rgb(75, 169, 212);
-    height: 100%;
-    width: 100%;
+  background-color: #2489ef;
 }
-.container {
-  height: 100;
+
+/*title style*/
+.row {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 4%;
+  border-radius: 25px;
+  border: 1px solid #10153a;
+  padding: 2px 3px;
+
 }
 
 .title {
-  font-family: "Protest Riot", sans-serif;
-  font-size: 10vw;
-  margin-top: 1%;
-  text-shadow: 2px 2px 2px rgb(0, 145, 212);
-  color: white;
+  font-size: 4em;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  letter-spacing: 2px;
+  color: #10153a;
 }
 
-.game {
+/*footer style*/
+footer {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  display: flex;
   justify-content: center;
-    background-color: rgba(75,169,212,.2);
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  border-radius: 25px;
+  border: 1px solid #10153a;
+}
+
+.btn {
+  background-color: #10153a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.row1 {
+  margin-top: 3%;
 }
