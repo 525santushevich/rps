@@ -28,6 +28,16 @@
         <div class="title justfiy-content-center">Rock Paper Scissors</div>
     </div>
 
+    <!-- Not my code -->
+      <div style="margin-top: 8%;" class="user">
+        <input type="text" id="username-input" placeholder="Type your username">
+        <a style="box-shadow: 2px 2px 2px white;" class="btn" onclick="generateUsername()">Create User</a>
+        <a style="box-shadow: 2px 2px 2px white;" class="btn" onclick="resetUsername()">Reset</a>
+        <h3 id="username-output"></h3>
+    </div>
+      <!-- End of "Not my code" -->
+
+      <div class="real-game">
         <div class="score">
           <div class="playerScore">
             <h2>WINS:</h2>
@@ -40,33 +50,37 @@
 
           </div>
         </div>
+        <hr>
         <div class="movesleft">Moves: 10 </div>
         <div class="options">
-          <button class="rock">Rock</button>
-          <button class="paper">Paper</button>
-          <button class="scissor">Scissors</button>
+          <a style="background-color:#185098; color:white; box-shadow: 2px 2px 2px white;
+" class="btn rock">Rock</a>
+          <a style="background-color:#185098; color:white; box-shadow: 2px 2px 2px white;
+" class="btn paper">Paper</a>
+          <a style="background-color:#185098; color:white; box-shadow: 2px 2px 2px white;
+" class="btn scissor">Scissors</a>
         </div>
         <div class="result"></div>
-        <button class="reload"></button>
+      <a style="margin-top: 5%;" class="btn" onclick="resetGame()">Reset Game</a>      
+      </div>
     </div>
   </div>
   </div>
   <!--Footer-->
-
       <footer>
         <div>
-        <a class="btn" href="https://github.com"></a>
-        <a class="btn" href="https://bookish-trout-v6v76g7454wp3p45-5500.app.github.dev/#"></a>
-        <a class="btn" href="button3"></a>
+          <div class="row1">
+            <a class="btn" href="https://github.com">Github</a>
+            <a class="btn" href="https://bookish-trout-v6v76g7454wp3p45-5500.app.github.dev/#">Gallery</a>
         </div>
-        <div class="row1 text-center">
-        <p class="copyright">Sophia Antushevich © 2024</p>
+        <div class="row2 text-center">
+          <p class="copyright">Sophia Antushevich © 2024</p>
         </div>
+      </div>
 
       </footer>
-      
-  <script src="script.js"></script>
 
+  <script src="script.js"></script>
 
 </body>
 
